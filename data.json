@@ -1,0 +1,20 @@
+{
+    "urls": [
+        { "old_url":"domain.com", "new_url":"domain.loc", "id":"1", "old_http":"https://", "new_http":"http://" },
+        { "old_url":"seconddomain.com", "new_url":"seconddomain.loc", "id":"2", "old_http":"https://", "new_http":"http://" },
+        { "old_url":"thirddomain.com", "new_url":"thirddomain.loc", "id":"3", "old_http":"https://", "new_http":"http://" }
+    ],
+    "tables_single": [
+        { "table":"_site", "column":"domain", "query_filters":""},
+        { "table":"_sitemeta", "column":"meta_value", "query_filters":""},
+        { "table":"_usermeta", "column":"meta_value", "query_filters":""}
+    ],
+    "tables_broad": [
+        { "table":"_blogs", "column":"domain", "query_filters":""},
+        { "table":"_options", "column":"option_value", "query_filters":"WHERE option_name = 'home' OR option_name = 'siteurl'"},
+        { "table":"_posts", "column":"guid", "query_filters":""},
+        { "table":"_posts", "column":"post_excerpt", "query_filters":""},
+        { "table":"_posts", "column":"post_content", "query_filters":""},
+        { "table":"_postmeta", "column":"meta_value", "query_filters":""}
+    ]
+ }

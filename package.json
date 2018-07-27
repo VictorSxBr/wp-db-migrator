@@ -1,0 +1,12 @@
+{
+  "name": "node-db-migrator",
+  "version": "0.0.1",
+  "description": "WP DB Migrator.",
+  "main": "server.js",
+  "author": "Victor",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "express": "latest",
+    "mysql": "^2.15.0"
+  }
+}
