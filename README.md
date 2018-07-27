@@ -1,6 +1,6 @@
 # WP DB Migrator
 
-This script was made(Quick and Dirty) to aid the process of migrating wordpress databases in between environments.
+This script was made(Quick and Dirty) to aid in the process of migrating wordpress databases in between environments.
 
 ## Usage
 
