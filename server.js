@@ -61,7 +61,7 @@ function process_tables(data, old_url, new_url, old_http, new_http, id) {
     }
 }
 
-function roll_tide(){
+function initiate_db_updates(){
     
     var raw_data = fs.readFileSync('data-octopus.json');
     var data = JSON.parse(raw_data);
@@ -88,4 +88,4 @@ function roll_tide(){
 
 }
 
-roll_tide();
+initiate_db_updates();
