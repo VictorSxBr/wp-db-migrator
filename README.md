@@ -1,6 +1,6 @@
 # WP DB Migrator - Node.js
 
-This script was made(Quick and Dirty) to aid in the process of migrating wordpress muiltisite databases in between environments(URLs).
+This script was made to aid in the process of migrating local wordpress muiltisite databases in between environments.
 
 ## Usage
 
